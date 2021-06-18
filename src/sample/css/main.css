@@ -1,0 +1,30 @@
+#main {
+    -fx-background-image: url("../img/bg.jpg");
+        -fx-background-repeat: stretch;
+        -fx-background-size: 690 300;
+        -fx-background-position: center center;
+        -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+#musicSpeedBox {
+    -fx-background-color: transparent;
+}
+
+.text {
+    -fx-fill: white;
+}
+
+.slider .track {
+    -fx-background-color: #fff;
+    -fx-padding: 1 1 1;
+}
+
+.slider .thumb {
+    -fx-background-color: #fff;
+}

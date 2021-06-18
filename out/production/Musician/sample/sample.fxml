@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="673.0" stylesheets="@css/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="songNameLabel" alignment="CENTER" layoutY="27.0" prefHeight="89.0" prefWidth="673.0" text="Musician" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+<!--      <Label fx:id="timeLabel" layoutX="299.0" layoutY="81.0" text="00/00">-->
+<!--         <font>-->
+<!--            <Font size="30.0" />-->
+<!--         </font>-->
+<!--      </Label>-->
+      <Slider fx:id="timeSlider" layoutX="10.0" layoutY="129.0" max="1.0" prefHeight="18.0" prefWidth="655.0" />
+      <Button fx:id="playBtn" layoutX="99.0" layoutY="147.0" mnemonicParsing="false" onAction="#playMusic" prefHeight="55.0" prefWidth="110.0" text="Play" />
+      <Button fx:id="pauseBtn" layoutX="227.0" layoutY="147.0" mnemonicParsing="false" onAction="#pauseMusic" prefHeight="55.0" prefWidth="110.0" text="Pause" />
+      <Button fx:id="selectFileBtn" layoutX="461.0" layoutY="147.0" mnemonicParsing="false" onAction="#selectFile" prefHeight="55.0" prefWidth="110.0" text="Select File" />
+      <Button fx:id="resetBtn" layoutX="337.0" layoutY="147.0" mnemonicParsing="false" onAction="#resetVideo" prefHeight="55.0" prefWidth="110.0" text="Reset" />
+   </children>
+</AnchorPane>
